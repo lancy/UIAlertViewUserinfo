@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF1BA967174BCAB700849355 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1BA966174BCAB700849355 /* UIKit.framework */; };
+		BF1BA969174BCAB700849355 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1BA968174BCAB700849355 /* Foundation.framework */; };
+		BF1BA96B174BCAB700849355 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1BA96A174BCAB700849355 /* CoreGraphics.framework */; };
+		BF1BA971174BCAB700849355 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF1BA96F174BCAB700849355 /* InfoPlist.strings */; };
+		BF1BA973174BCAB700849355 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1BA972174BCAB700849355 /* main.m */; };
+		BF1BA977174BCAB700849355 /* GLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1BA976174BCAB700849355 /* GLAppDelegate.m */; };
+		BF1BA979174BCAB700849355 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1BA978174BCAB700849355 /* Default.png */; };
+		BF1BA97B174BCAB700849355 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1BA97A174BCAB700849355 /* Default@2x.png */; };
+		BF1BA97D174BCAB700849355 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1BA97C174BCAB700849355 /* Default-568h@2x.png */; };
+		BF1BA980174BCAB700849355 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF1BA97E174BCAB700849355 /* MainStoryboard.storyboard */; };
+		BF1BA983174BCAB700849355 /* GLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1BA982174BCAB700849355 /* GLViewController.m */; };
+		BF1BA98B174D13A200849355 /* UIAlertView+Userinfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1BA98A174D13A200849355 /* UIAlertView+Userinfo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF1BA963174BCAB700849355 /* UIAlertUserinfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIAlertUserinfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1BA966174BCAB700849355 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BF1BA968174BCAB700849355 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF1BA96A174BCAB700849355 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BF1BA96E174BCAB700849355 /* UIAlertUserinfo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIAlertUserinfo-Info.plist"; sourceTree = "<group>"; };
+		BF1BA970174BCAB700849355 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF1BA972174BCAB700849355 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF1BA974174BCAB700849355 /* UIAlertUserinfo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertUserinfo-Prefix.pch"; sourceTree = "<group>"; };
+		BF1BA975174BCAB700849355 /* GLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLAppDelegate.h; sourceTree = "<group>"; };
+		BF1BA976174BCAB700849355 /* GLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLAppDelegate.m; sourceTree = "<group>"; };
+		BF1BA978174BCAB700849355 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BF1BA97A174BCAB700849355 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BF1BA97C174BCAB700849355 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BF1BA97F174BCAB700849355 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		BF1BA981174BCAB700849355 /* GLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLViewController.h; sourceTree = "<group>"; };
+		BF1BA982174BCAB700849355 /* GLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLViewController.m; sourceTree = "<group>"; };
+		BF1BA989174D13A200849355 /* UIAlertView+Userinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Userinfo.h"; sourceTree = "<group>"; };
+		BF1BA98A174D13A200849355 /* UIAlertView+Userinfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Userinfo.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF1BA960174BCAB700849355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1BA967174BCAB700849355 /* UIKit.framework in Frameworks */,
+				BF1BA969174BCAB700849355 /* Foundation.framework in Frameworks */,
+				BF1BA96B174BCAB700849355 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF1BA95A174BCAB700849355 = {
+			isa = PBXGroup;
+			children = (
+				BF1BA96C174BCAB700849355 /* UIAlertUserinfo */,
+				BF1BA965174BCAB700849355 /* Frameworks */,
+				BF1BA964174BCAB700849355 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF1BA964174BCAB700849355 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF1BA963174BCAB700849355 /* UIAlertUserinfo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF1BA965174BCAB700849355 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF1BA966174BCAB700849355 /* UIKit.framework */,
+				BF1BA968174BCAB700849355 /* Foundation.framework */,
+				BF1BA96A174BCAB700849355 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF1BA96C174BCAB700849355 /* UIAlertUserinfo */ = {
+			isa = PBXGroup;
+			children = (
+				BF1BA975174BCAB700849355 /* GLAppDelegate.h */,
+				BF1BA976174BCAB700849355 /* GLAppDelegate.m */,
+				BF1BA97E174BCAB700849355 /* MainStoryboard.storyboard */,
+				BF1BA981174BCAB700849355 /* GLViewController.h */,
+				BF1BA982174BCAB700849355 /* GLViewController.m */,
+				BF1BA989174D13A200849355 /* UIAlertView+Userinfo.h */,
+				BF1BA98A174D13A200849355 /* UIAlertView+Userinfo.m */,
+				BF1BA96D174BCAB700849355 /* Supporting Files */,
+			);
+			path = UIAlertUserinfo;
+			sourceTree = "<group>";
+		};
+		BF1BA96D174BCAB700849355 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF1BA96E174BCAB700849355 /* UIAlertUserinfo-Info.plist */,
+				BF1BA96F174BCAB700849355 /* InfoPlist.strings */,
+				BF1BA972174BCAB700849355 /* main.m */,
+				BF1BA974174BCAB700849355 /* UIAlertUserinfo-Prefix.pch */,
+				BF1BA978174BCAB700849355 /* Default.png */,
+				BF1BA97A174BCAB700849355 /* Default@2x.png */,
+				BF1BA97C174BCAB700849355 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF1BA962174BCAB700849355 /* UIAlertUserinfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF1BA986174BCAB700849355 /* Build configuration list for PBXNativeTarget "UIAlertUserinfo" */;
+			buildPhases = (
+				BF1BA95F174BCAB700849355 /* Sources */,
+				BF1BA960174BCAB700849355 /* Frameworks */,
+				BF1BA961174BCAB700849355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIAlertUserinfo;
+			productName = UIAlertUserinfo;
+			productReference = BF1BA963174BCAB700849355 /* UIAlertUserinfo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF1BA95B174BCAB700849355 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GL;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = GraceLancy;
+			};
+			buildConfigurationList = BF1BA95E174BCAB700849355 /* Build configuration list for PBXProject "UIAlertUserinfo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BF1BA95A174BCAB700849355;
+			productRefGroup = BF1BA964174BCAB700849355 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF1BA962174BCAB700849355 /* UIAlertUserinfo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF1BA961174BCAB700849355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1BA971174BCAB700849355 /* InfoPlist.strings in Resources */,
+				BF1BA979174BCAB700849355 /* Default.png in Resources */,
+				BF1BA97B174BCAB700849355 /* Default@2x.png in Resources */,
+				BF1BA97D174BCAB700849355 /* Default-568h@2x.png in Resources */,
+				BF1BA980174BCAB700849355 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF1BA95F174BCAB700849355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1BA973174BCAB700849355 /* main.m in Sources */,
+				BF1BA977174BCAB700849355 /* GLAppDelegate.m in Sources */,
+				BF1BA983174BCAB700849355 /* GLViewController.m in Sources */,
+				BF1BA98B174D13A200849355 /* UIAlertView+Userinfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF1BA96F174BCAB700849355 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF1BA970174BCAB700849355 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BF1BA97E174BCAB700849355 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF1BA97F174BCAB700849355 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF1BA984174BCAB700849355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF1BA985174BCAB700849355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF1BA987174BCAB700849355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIAlertUserinfo/UIAlertUserinfo-Prefix.pch";
+				INFOPLIST_FILE = "UIAlertUserinfo/UIAlertUserinfo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BF1BA988174BCAB700849355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIAlertUserinfo/UIAlertUserinfo-Prefix.pch";
+				INFOPLIST_FILE = "UIAlertUserinfo/UIAlertUserinfo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF1BA95E174BCAB700849355 /* Build configuration list for PBXProject "UIAlertUserinfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1BA984174BCAB700849355 /* Debug */,
+				BF1BA985174BCAB700849355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF1BA986174BCAB700849355 /* Build configuration list for PBXNativeTarget "UIAlertUserinfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1BA987174BCAB700849355 /* Debug */,
+				BF1BA988174BCAB700849355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF1BA95B174BCAB700849355 /* Project object */;
+}
